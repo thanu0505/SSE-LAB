@@ -6,7 +6,7 @@ public class Check{
     public static void main(String[] args) {
         String data = "This is some data that needs a checksum";
         
-        // Compute checksum
+
         long checksumValue = computeChecksum(data.getBytes());
         System.out.println("Checksum: " + checksumValue);
         
