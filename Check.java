@@ -10,7 +10,6 @@ public class Check{
         long checksumValue = computeChecksum(data.getBytes());
         System.out.println("Checksum: " + checksumValue);
         
-        // Simulate data change
         String alteredData = "This is some altered data that needs a checksum";
         long newChecksumValue = computeChecksum(alteredData.getBytes());
         System.out.println("New Checksum: " + newChecksumValue);
